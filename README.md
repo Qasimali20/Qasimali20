@@ -85,18 +85,16 @@ AI/ML Engineer (**GIKI '26**) focused on shipping AI systems that make it out of
 ## GitHub Stats
 
 <!--
-  GITHUB STATS — RELIABILITY NOTE
-  The two cards below use the PUBLIC github-readme-stats.vercel.app instance, which is
-  shared by everyone and is frequently rate-limited or paused — when that happens the
-  images silently break and only the alt text ("GitHub stats" / "Top languages") shows.
-  PERMANENT FIX: deploy your own copy on Vercel (5-10 min) and replace every
-  "github-readme-stats.vercel.app" below with your own "<your-app>.vercel.app" domain.
-  Your own instance has its own API quota, so the cards render reliably.
+  Stats + top-language cards are static SVGs, regenerated daily by
+  .github/workflows/update-github-stats.yml and committed to assets/.
+  They render straight from this repo, so they never rate-limit or go down.
+  To re-theme, edit the "options" lines in that workflow.
+  (The streak card below is still served live by streak-stats.demolab.com.)
 -->
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Qasimali20&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="GitHub stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Qasimali20&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages"/>
+  <img height="170" src="./assets/stats.svg" alt="GitHub stats"/>
+  <img height="170" src="./assets/top-langs.svg" alt="Top languages"/>
 </div>
 
 <div align="center">
