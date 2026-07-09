@@ -24,32 +24,32 @@
 
 </div>
 
-## 🧠 About Me
+## About Me
 
-AI Engineer (**GIKI '26**) focused on shipping AI systems that make it out of the notebook — into APIs, products, and real users' hands.
+AI/ML Engineer (**GIKI '26**) focused on shipping AI systems that make it out of the notebook — into APIs, products, and real users' hands.
 
-- 🤖 Currently building **Dhayan** — a multimodal humanoid robot for autistic support, running on **Jetson Orin Nano**
-- 🛰️ At **PITB**: shipped a Sentinel-2 soil-moisture segmentation pipeline (**UNet, 0.89 mIoU**) and a hybrid-search RAG chatbot serving citizens through *Maryam Ki Dastak*
-- 💬 At **Nayatel**: built an enterprise RAG support chatbot — **92% precision**, 1,000+ daily queries in production
-- 🥇 Winner — **All Pakistan Prompt Engineering Competition 2025**
-- 📄 Published at **ICAI 2024** (Varna, Bulgaria) — CNN-based malaria cell classification, **96% accuracy**
+- Built **Dhayan** — a multimodal humanoid robot for autistic support, running on **Jetson Orin Nano** (final-year project)
+- At **PITB**: shipped a Sentinel-2 soil-moisture segmentation pipeline (**UNet, 0.89 mIoU**) and a hybrid-search RAG chatbot serving citizens through *Maryam Ki Dastak*
+- At **Nayatel**: built an enterprise RAG support chatbot — **92% precision**, 1,000+ daily queries in production
+- Winner — **All Pakistan Prompt Engineering Competition 2025**
+- Published at **ICAI 2024** (Varna, Bulgaria) — CNN-based malaria cell classification, **96% accuracy**
 
-## 📌 Featured Projects
+## Featured Projects
 
 | Project | What it does | Stack |
 |---|---|---|
-| 🤖 [**Dhayan — Humanoid Robot for Autistic Support**](https://github.com/Qasimali20/Dhayan-FYP) | Multimodal assistive framework optimized for custom robotic hardware runtimes | `Jetson Orin Nano` `Python` `OpenCV` `SpeechRecognition` |
-| 🎙️ [**Urdu Audio Deepfake Detection**](https://github.com/Qasimali20/Urdu-Audio-Deepfake) | Detects adversarial voice-cloning variants in a low-resource language | `CNN` `LSTM` `MFCC` `Mel-spectrograms` |
-| 🩺 [**AI-Powered PCOS Assistant**](https://github.com/Qasimali20/AI-PCOS) | Multimodal clinical support — imaging diagnostics + symptom intake → insights | `ResNet50` `Grad-CAM` `LangChain` `n8n` |
-| 🌱 [**Cotton Detection & Yield Prediction**](https://github.com/Qasimali20/Cotton-Detection) | Precision-agriculture vision for rapid multi-instance counting from field imagery | `YOLOv12` `PyTorch` `Computer Vision` |
+| [**Dhayan — Humanoid Robot for Autistic Support**](https://github.com/Qasimali20/Dhayan-FYP) | Multimodal assistive framework optimized for custom robotic hardware runtimes | `Jetson Orin Nano` `Python` `OpenCV` `SpeechRecognition` |
+| [**Urdu Audio Deepfake Detection**](https://github.com/Qasimali20/Urdu-Audio-Deepfake) | Detects adversarial voice-cloning variants in a low-resource language | `CNN` `LSTM` `MFCC` `Mel-spectrograms` |
+| [**AI-Powered PCOS Assistant**](https://github.com/Qasimali20/AI-PCOS) | Multimodal clinical support — imaging diagnostics + symptom intake → insights | `ResNet50` `Grad-CAM` `LangChain` `n8n` |
+| [**Cotton Detection & Yield Prediction**](https://github.com/Qasimali20/Cotton-Detection) | Precision-agriculture vision for rapid multi-instance counting from field imagery | `YOLOv12` `PyTorch` `Computer Vision` |
 
-### 🏭 Industry Work
+### Industry Work
 
 - **Maryam Ki Dastak — Hybrid Search RAG Chatbot** · BM25 + Milvus + bge embeddings on Qwen3-8B-AWQ via vLLM, with hallucination guardrails and reranking → **+22% retrieval accuracy, −30% irrelevant responses**
 - **Satellite Soil-Moisture Segmentation** · UNet on 13-band Sentinel-2 multispectral imagery, experiment tracking with MLflow → **0.89 mean IoU**
 - **Enterprise Support Chatbot** · LangChain RAG + LLaMA3-8B, containerized with Flask, ReactJS & Docker → **92% precision, 1,000+ queries/day**
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **ML / Deep Learning**
 
@@ -76,13 +76,23 @@ AI Engineer (**GIKI '26**) focused on shipping AI systems that make it out of th
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-## 🏆 Achievements & Research
+## Achievements & Research
 
-- 🥇 **1st Place** — All Pakistan Prompt Engineering Competition (2025)
-- 🌍 **International Hackathons** — Co-Creating with GPT-5 (LabLab.ai), ElevenLabs Voice AI, Llama 2 × Clarifai
-- 📄 **Publication** — *Malaria Cell Classification Using CNN: A Deep Learning Approach* · ICAI 2024, Varna, Bulgaria
+- **1st Place** — All Pakistan Prompt Engineering Competition (2025)
+- **International Hackathons** — Co-Creating with GPT-5 (LabLab.ai), ElevenLabs Voice AI, Llama 2 × Clarifai
+- **Publication** — *Malaria Cell Classification Using CNN: A Deep Learning Approach* · ICAI 2024, Varna, Bulgaria
 
-## 📊 GitHub Stats
+## GitHub Stats
+
+<!--
+  GITHUB STATS — RELIABILITY NOTE
+  The two cards below use the PUBLIC github-readme-stats.vercel.app instance, which is
+  shared by everyone and is frequently rate-limited or paused — when that happens the
+  images silently break and only the alt text ("GitHub stats" / "Top languages") shows.
+  PERMANENT FIX: deploy your own copy on Vercel (5-10 min) and replace every
+  "github-readme-stats.vercel.app" below with your own "<your-app>.vercel.app" domain.
+  Your own instance has its own API quota, so the cards render reliably.
+-->
 
 <div align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=Qasimali20&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="GitHub stats"/>
@@ -93,10 +103,10 @@ AI Engineer (**GIKI '26**) focused on shipping AI systems that make it out of th
   <img src="https://streak-stats.demolab.com?user=Qasimali20&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
 </div>
 
-## 📫 Get in Touch
+## Get in Touch
 
 Have an AI problem worth solving? Let's talk.
 
-📧 **alimqasim427@gmail.com** · 🌐 [mqa-portfolio.vercel.app](https://mqa-portfolio.vercel.app/) · 💼 [LinkedIn](https://www.linkedin.com/in/muhammad-qasim-ali-ai/)
+**alimqasim427@gmail.com** · [mqa-portfolio.vercel.app](https://mqa-portfolio.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/muhammad-qasim-ali-ai/)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=100&section=footer" width="100%"/>
