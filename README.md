@@ -29,25 +29,25 @@
 AI/ML Engineer (**GIKI '26**) focused on shipping AI systems that make it out of the notebook — into APIs, products, and real users' hands.
 
 - Built **Dhayan** — a multimodal humanoid robot for autistic support, running on **Jetson Orin Nano** (final-year project)
-- At **PITB**: shipped a Sentinel-2 soil-moisture segmentation pipeline (**U-Net, 0.89 mIoU**) and a hybrid-search RAG chatbot serving citizens through *Maryam Ki Dastak*
+- At **PITB**: shipped a Sentinel-2 soil-moisture segmentation pipeline (**UNet, 0.89 mIoU**) and a hybrid-search RAG chatbot serving citizens through *Maryam Ki Dastak*
 - At **Nayatel**: built an enterprise RAG support chatbot — **92% precision**, 1,000+ daily queries in production
 - Winner — **All Pakistan Prompt Engineering Competition 2025**
-- Published at **ICAI 2024** (International Conference on Automatics and Informatics, Varna, Bulgaria) — CNN-based malaria cell classification, **96.7% accuracy**
+- Published at **ICAI 2024** (Varna, Bulgaria) — CNN-based malaria cell classification, **96% accuracy**
 
 ## Featured Projects
 
 | Project | What it does | Stack |
 |---|---|---|
-| [**Dhayan — Humanoid Robot for Autistic Support**](https://github.com/Qasimali20/Dhayan-FYP) | Assistive companion robot using computer vision and voice interaction to support children with autism, on a Jetson + dual-Raspberry-Pi split-compute setup | `Jetson Orin Nano` `Python` `OpenCV` `SpeechRecognition` |
-| [**Urdu Audio Deepfake Detection**](https://github.com/Qasimali20/Urdu-Audio-Deepfake) | Detects AI voice-cloning in Urdu, a low-resource language underserved by existing tools | `CNN` `LSTM` `MFCC` `Mel-spectrograms` |
-| [**AI-Powered PCOS Assistant**](https://github.com/Qasimali20/AI-PCOS) | Classifies ultrasound scans (ResNet-50 + Grad-CAM) with a LangChain symptom analyzer and an n8n scheduling agent | `ResNet-50` `Grad-CAM` `LangChain` `n8n` |
-| [**Cotton Detection & Yield Prediction**](https://github.com/Qasimali20/Cotton-Detection) | Detects cotton plants and bolls from field imagery to support yield prediction — 94% mAP@0.5 | `YOLOv12` `PyTorch` `Computer Vision` |
+| [**Dhayan — Humanoid Robot for Autistic Support**](https://github.com/Qasimali20/Dhayan-FYP) | Multimodal assistive framework optimized for custom robotic hardware runtimes | `Jetson Orin Nano` `Python` `OpenCV` `SpeechRecognition` |
+| [**Urdu Audio Deepfake Detection**](https://github.com/Qasimali20/Urdu-Audio-Deepfake) | Detects adversarial voice-cloning variants in a low-resource language | `CNN` `LSTM` `MFCC` `Mel-spectrograms` |
+| [**AI-Powered PCOS Assistant**](https://github.com/Qasimali20/AI-PCOS) | Multimodal clinical support — imaging diagnostics + symptom intake → insights | `ResNet50` `Grad-CAM` `LangChain` `n8n` |
+| [**Cotton Detection & Yield Prediction**](https://github.com/Qasimali20/Cotton-Detection) | Precision-agriculture vision for rapid multi-instance counting from field imagery | `YOLOv12` `PyTorch` `Computer Vision` |
 
 ### Industry Work
 
 - **Hybrid Search RAG Chatbot** · BM25 + Milvus + bge embeddings on Qwen3-8B-AWQ via vLLM, with hallucination guardrails and reranking → **+22% retrieval accuracy, −30% irrelevant responses**
-- **Satellite Soil-Moisture Segmentation** · U-Net on 13-band Sentinel-2 multispectral imagery, experiment tracking with MLflow → **0.89 mean IoU**
-- **Customer Support Chatbot** · LangChain RAG + Llama 3 8B, containerized with Flask, ReactJS & Docker → **92% precision, 1,000+ queries/day**
+- **Satellite Soil-Moisture Segmentation** · UNet on 13-band Sentinel-2 multispectral imagery, experiment tracking with MLflow → **0.89 mean IoU**
+- **Customer Support Chatbot** · LangChain RAG + LLaMA3-8B, containerized with Flask, ReactJS & Docker → **92% precision, 1,000+ queries/day**
 
 ## Tech Stack
 
@@ -79,13 +79,21 @@ AI/ML Engineer (**GIKI '26**) focused on shipping AI systems that make it out of
 
 - **1st Place** — All Pakistan Prompt Engineering Competition (2025)
 - **International Hackathons** — Co-Creating with GPT-5 (LabLab.ai), ElevenLabs Voice AI, Llama 2 × Clarifai
-- **Publication** — *Malaria Cell Classification Using CNN: A Deep Learning Approach* · ICAI 2024, Varna, Bulgaria · **96.7% accuracy** · [IEEE Xplore](https://ieeexplore.ieee.org/document/10851621)
+- **Publication** — *Malaria Cell Classification Using CNN: A Deep Learning Approach* · ICAI 2024, Varna, Bulgaria
 
 ## GitHub Stats
 
+<!--
+  Stats + top-language cards are static SVGs, regenerated daily by
+  .github/workflows/update-github-stats.yml and committed to assets/.
+  They render straight from this repo, so they never rate-limit or go down.
+  To re-theme, edit the "options" lines in that workflow.
+  (The streak card below is still served live by streak-stats.demolab.com.)
+-->
+
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Qasimali20&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Qasimali20&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages"/>
+  <img height="170" src="./assets/stats.svg" alt="GitHub stats"/>
+  <img height="170" src="./assets/top-langs.svg" alt="Top languages"/>
 </div>
 
 <div align="center">
