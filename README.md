@@ -14,7 +14,7 @@
 <a href="https://mqa-portfolio.vercel.app/">
   <img src="https://img.shields.io/badge/Portfolio-2c5364?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
 </a>
-<a href="https://www.linkedin.com/in/muhammad-qasim-ali-ai/">
+<a href="https://www.linkedin.com/in/muhammad-qasim-ali/">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 <a href="mailto:alimqasim427@gmail.com">
