@@ -104,6 +104,6 @@ AI/ML Engineer (**GIKI '26**) focused on shipping AI systems that make it out of
 
 Have an AI problem worth solving? Let's talk.
 
-**alimqasim427@gmail.com** · [mqa-portfolio.vercel.app](https://mqa-portfolio.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/muhammad-qasim-ali-ai/)
+**alimqasim427@gmail.com** · [Portfolio](https://mqa-portfolio.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/muhammad-qasim-ali/)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=100&section=footer" width="100%"/>
