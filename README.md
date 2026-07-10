@@ -100,10 +100,4 @@ AI/ML Engineer (**GIKI '26**) focused on shipping AI systems that make it out of
   <img src="https://streak-stats.demolab.com?user=Qasimali20&theme=tokyonight&hide_border=true" alt="GitHub streak"/>
 </div>
 
-## Get in Touch
-
-Have an AI problem worth solving? Let's talk.
-
-**alimqasim427@gmail.com** · [Portfolio](https://mqa-portfolio.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/muhammad-qasim-ali/)
-
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=100&section=footer" width="100%"/>
