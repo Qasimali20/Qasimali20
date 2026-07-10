@@ -3,16 +3,23 @@ name: Update GitHub Stats Cards
 on:
   schedule:
     - cron: "0 0 * * *"   # daily at 00:00 UTC
-  workflow_dispatch:        # lets you trigger a run manually from the Actions tab
+  workflow_dispatch:
+
+# Never let two runs (e.g. a manual run + the scheduled one) push at once
+concurrency:
+  group: update-stats-cards
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write       # required so the workflow can commit the generated SVGs
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0        # full history so the rebase below is clean
 
       - name: Generate stats card
         uses: stats-organization/github-readme-stats-action@v2
@@ -35,5 +42,17 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/stats.svg assets/top-langs.svg
-          git diff --staged --quiet || git commit -m "chore: refresh GitHub stats cards"
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: refresh GitHub stats cards"
+          # main may have moved while this run was going — rebase onto it, then push.
+          # Retry in case it moves again mid-push.
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push && exit 0
+            echo "Push attempt $i failed; retrying in 5s..."
+            sleep 5
+          done
+          echo "Failed to push after 3 attempts." >&2
+          exit 1
