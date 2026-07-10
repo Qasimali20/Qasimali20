@@ -45,9 +45,9 @@ AI/ML Engineer (**GIKI '26**) focused on shipping AI systems that make it out of
 
 ### Industry Work
 
-- **Maryam Ki Dastak — Hybrid Search RAG Chatbot** · BM25 + Milvus + bge embeddings on Qwen3-8B-AWQ via vLLM, with hallucination guardrails and reranking → **+22% retrieval accuracy, −30% irrelevant responses**
+- **Hybrid Search RAG Chatbot** · BM25 + Milvus + bge embeddings on Qwen3-8B-AWQ via vLLM, with hallucination guardrails and reranking → **+22% retrieval accuracy, −30% irrelevant responses**
 - **Satellite Soil-Moisture Segmentation** · UNet on 13-band Sentinel-2 multispectral imagery, experiment tracking with MLflow → **0.89 mean IoU**
-- **Enterprise Support Chatbot** · LangChain RAG + LLaMA3-8B, containerized with Flask, ReactJS & Docker → **92% precision, 1,000+ queries/day**
+- **Customer Support Chatbot** · LangChain RAG + LLaMA3-8B, containerized with Flask, ReactJS & Docker → **92% precision, 1,000+ queries/day**
 
 ## Tech Stack
 
@@ -73,7 +73,6 @@ AI/ML Engineer (**GIKI '26**) focused on shipping AI systems that make it out of
 ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white)
 ![NVIDIA Jetson](https://img.shields.io/badge/NVIDIA%20Jetson-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=raspberrypi&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ## Achievements & Research
